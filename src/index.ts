@@ -8,7 +8,7 @@ const OPEN_WEATHER_MAP_API_KEY = process.env.OPEN_WEATHER_MAP_API_KEY;
 // Create server instance
 const server = new McpServer({
   name: "mcp-city-weather",
-  version: "1.0.0",
+  version: "1.1.0",
   capabilities: {
     tools: {},
   },
